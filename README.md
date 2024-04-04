@@ -24,45 +24,49 @@
 
 ## Donwload
 
-Clone Projek
+Clone the project
 
 ```bash
   git clone https://github.com/daamnr/rent-car-laravel.git nama_projek
 ```
 
-Masuk ke folder dengan perintah
+Go to the project directory
 
 ```bash
   cd nama_projek
 ```
 
--   Copy .env.example menjadi .env kemudia edit databasenya
+Copy file `.env.example` and rename this file to `.env`
+
+Edit your database configuration in `.env` file
+
+
+Install `composer` dependencies
 
 ```bash
     composer install
 ```
 
+Generate your application key using `php artisan` command below
+
 ```bash
     php artisan key:generate
 ```
+
+Run database migration using `php artisan` commad below
 
 ```bash
     php artisan migrate:fresh --seed
 ```
 
+Run `storage link` commad below
+
 ```bash
     php artisan storage:link
 ```
 
-```bash
-    php artisan serve
-```
 
-```bash
-    npm run dev
-```
-
-#### Login
+### Login
 
 -   email = admin@admin.com
 -   password = 123
