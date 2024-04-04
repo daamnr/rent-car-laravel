@@ -2,14 +2,32 @@
 
 ## Screenshots
 
-![preview img](/preview.png)
+<p align="center">
+    Daftar Mobil <br>
+    <img src="https://raw.githubusercontent.com/daamnr/rent-car-laravel/main/public/images/daftar-mobil.png">
+</p>
+
+<p align="center">
+    Pengembalian Mobil <br>
+    <img src="https://raw.githubusercontent.com/daamnr/rent-car-laravel/main/public/images/pengembalian-mobil.png">
+</p>
+
+<p align="center">
+    Data Booking Mobil <br>
+    <img src="https://raw.githubusercontent.com/daamnr/rent-car-laravel/main/public/images/data-booking-mobil.png">
+</p>
+
+<p align="center">
+    Data Mobil <br>
+    <img src="https://raw.githubusercontent.com/daamnr/rent-car-laravel/main/public/images/data-mobil.png">
+</p>
 
 ## Donwload
 
 Clone Projek
 
 ```bash
-  git clone https://github.com/abdulaziz-m5u/rental-mobil-laravel.git nama_projek
+  git clone https://github.com/daamnr/rent-car-laravel.git nama_projek
 ```
 
 Masuk ke folder dengan perintah
@@ -29,11 +47,19 @@ Masuk ke folder dengan perintah
 ```
 
 ```bash
-    php artisan artisan migrate:fresh --seed
+    php artisan migrate:fresh --seed
 ```
 
 ```bash
     php artisan storage:link
+```
+
+```bash
+    php artisan serve
+```
+
+```bash
+    npm run dev
 ```
 
 #### Login
